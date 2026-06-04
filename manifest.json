@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "MotivateMe - A New Tab Extension with Inspirational Quotes",
-  "version": "1.0",
-  "description": "Display motivational quotes on new tab page",
-  "chrome_url_overrides": {
-    "newtab": "popup.html"
-  }
-}

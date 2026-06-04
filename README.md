@@ -1,33 +1,27 @@
-# MotivateMe - A New Tab Extension with Inspirational Quotes
+﻿# MotivateMe - Privacy Policy
 
-MotivateMe is a simple yet powerful new tab extension that displays your own inspiring quotes, reminder, affirmation or anything that you want to constantly remind yourself. e.g Drink Water. This extension is designed to motivate and inspire you every time you open a new tab.
+This repository hosts the **public privacy policy** for the [MotivateMe](https://chromewebstore.google.com/) Chrome extension.
 
-## Features:
+**View the privacy policy:** https://xenstar.github.io/MotivateMe/
 
-* Displays inspirational information on a new tab page (your own)
-* Easy to customize - just update the quotes array in the code!
+## About
 
-## Getting Started:
+MotivateMe replaces the browser's new-tab page with a single quote from your own list. Your quotes live in your browser's local storage. No account, no analytics, no tracking, no remote calls.
 
-1. Clone or download this repository to use the extension.
-2. Update the `quotes` array in `quotes.json` with your own inspirational quotes.
-3. Load the extension in your browser and start getting motivated!
+## Files in this repository
 
-## Manual Installation on Chrome or Brave:
+- **index.html** - the styled English privacy policy, served at the root URL by GitHub Pages
+- **.nojekyll** - tells GitHub Pages to skip Jekyll processing
+- **README.md** - this file
 
-### Step 1: Enable Developer Mode
+## How to update the privacy policy
 
-* Chrome: Go to `chrome://extensions/`, toggle the switch to enable Developer Mode.
-* Brave: Go to `brave://extensions/`, toggle the switch to enable Developer Mode.
+Edit index.html and push. GitHub Pages rebuilds within 60 seconds. The URL stays the same.
 
-### Step 2: Load the Extension
+## Contact
 
-* Click "Load unpacked" and select the folder that contains the extension's files.
+Open an issue in this repository, or find the maintainer's contact on the [Chrome Web Store listing](https://chromewebstore.google.com/).
 
-### Step 3: Start Motivating!
+---
 
-* Open a new tab to see your inspirational quotes in action!
-
-## Note:
-
-This extension is designed to be easy to customize, so feel free to add or modify quotes to suit your needs.
+*Built with privacy as a feature, not an afterthought.*

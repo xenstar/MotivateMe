@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — MotivateMe</title>
+  <meta name="description" content="MotivateMe privacy policy: what data is stored, what is never collected, and how to control your data. The entire extension is local-first; no analytics, no tracking, no remote calls.">
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --text: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --text-tertiary: #98989d;
+      --accent: #8a6d3b;
+      --border: rgba(0, 0, 0, 0.08);
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06);
+      --max-w: 720px;
+      --serif: 'Source Serif 4', 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+      --sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .wrap { max-width: var(--max-w); margin: 0 auto; padding: 64px 24px 96px; }
+    h1 {
+      font-family: var(--serif);
+      font-size: 42px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      margin: 48px 0 12px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    h2:first-of-type { border-top: 0; margin-top: 32px; padding-top: 0; }
+    p { margin: 12px 0; color: var(--text); }
+    strong { font-weight: 600; color: var(--text); }
+    ul { margin: 12px 0; padding-left: 24px; }
+    li { margin: 6px 0; color: var(--text); }
+    li::marker { color: var(--text-tertiary); }
+    .meta { color: var(--text-tertiary); font-size: 14px; margin: 0 0 24px; }
+    .lede { font-size: 18px; color: var(--text-secondary); }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 150ms; }
+    a:hover { border-bottom-color: var(--accent); }
+    code, kbd {
+      font-family: 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+      font-size: 0.92em;
+      background: rgba(20, 15, 10, 0.04);
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+    .callout {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 24px 0;
+      color: var(--text-secondary);
+    }
+    .callout strong { color: var(--text); }
+    hr { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }
+    footer { color: var(--text-tertiary); font-size: 13px; margin-top: 64px; text-align: center; }
+    .lang { float: right; font-size: 13px; }
+    .lang a { color: var(--text-tertiary); margin-left: 8px; }
+    .lang a:hover { color: var(--accent); }
+    @media (max-width: 600px) {
+      h1 { font-size: 32px; }
+      .wrap { padding: 40px 20px 64px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="lang">
+      <a href="index.html">EN</a>
+      <a href="index.zh-CN.html">中文</a>
+      <a href="index.bn.html">বাংলা</a>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">MotivateMe Chrome extension &nbsp;·&nbsp; Effective: 2026-06-03 &nbsp;·&nbsp; v1.2.1</p>
+
+    <p class="lede">MotivateMe is a Chrome extension that shows you a quote of your choosing on every new tab. This page explains exactly what data lives where.</p>
+
+    <h2>What we store</h2>
+    <p><strong>Only on your device.</strong> MotivateMe keeps your quote list and a few preferences in your browser's local storage. Specifically:</p>
+    <ul>
+      <li>Your quote list (texts you've added or favorited)</li>
+      <li>Your theme preference (light, dark, or auto)</li>
+      <li>Your language preference</li>
+      <li>Your language detection (browser language on first install)</li>
+      <li>Your onboarding state (whether you've seen the welcome page)</li>
+      <li>Your review-prompt state (whether you've seen/dismissed the 7-day review banner)</li>
+      <li>A timestamp of your first saved quote (used to time the review banner)</li>
+      <li>The path of any backup file you've connected (so we can auto-save your quotes to it)</li>
+      <li>A counter of your daily opens (so we can show you the most-recent-quote logic)</li>
+    </ul>
+
+    <h2>What we never do</h2>
+    <ul>
+      <li><strong>No analytics.</strong> We do not collect, store, or transmit any usage data, telemetry, or events.</li>
+      <li><strong>No remote calls.</strong> The extension never makes network requests except when you explicitly click the "Support MotivateMe" donation link, which opens <code>ko-fi.com</code> in a new tab. The extension itself does not load any remote scripts.</li>
+      <li><strong>No accounts.</strong> We do not require, accept, or store any user account information.</li>
+      <li><strong>No tracking.</strong> We do not use cookies, fingerprinting, or any other tracking mechanism.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>In plain English:</strong> the entire extension runs locally on your device. The only outbound traffic is the donation link, and only if you click it.
+    </div>
+
+    <h2>Permissions</h2>
+    <p>The extension requests only two permissions from Chrome:</p>
+    <ul>
+      <li>
+        <strong><code>storage</code></strong>: Stores your quote list and preferences locally in <code>chrome.storage.local</code>. This data never leaves your device.
+      </li>
+      <li>
+        <strong><code>downloads</code></strong>: Used only for the user-initiated "Backup" feature. When you click "Backup now" in the Options page, this permission allows the extension to save your quote list as a JSON file to a location you choose. The extension never downloads anything automatically — this permission is invoked only by explicit user action. (Some browsers like Brave and Comet do not support the File System Access API; this permission is the fallback for those browsers.)
+      </li>
+    </ul>
+
+    <h2>Your data, your control</h2>
+    <ul>
+      <li><strong>Export</strong>: Click "Backup now" in Options to download your quotes as a JSON file.</li>
+      <li><strong>Import</strong>: Click "Restore" in Options to load a JSON file you previously exported (or that was given to you).</li>
+      <li><strong>Clear all quotes</strong>: Click "Clear all quotes" in the Options footer to remove every quote — both the ones you added and the pre-loaded default set. You can add new ones anytime.</li>
+      <li><strong>Uninstall</strong>: Removing the extension deletes all data in <code>chrome.storage.local</code>. The extension does not sync anything to the cloud.</li>
+    </ul>
+
+    <h2>Updates to this policy</h2>
+    <p>If we make changes to what data is stored or how it is used, we will update this document and bump the extension version. Major changes will be called out in the Chrome Web Store update notes.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions or concerns, please open an issue on the GitHub repository or email the maintainer.</p>
+
+    <hr>
+
+    <footer>
+      <em>Built with privacy as a feature, not an afterthought.</em>
+    </footer>
+  </main>
+</body>
+</html>

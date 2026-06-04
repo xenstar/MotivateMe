@@ -1,0 +1,3 @@
+# Tells GitHub Pages to skip Jekyll processing.
+# (Jekyll sometimes mangles files that start with underscores;
+# we don't have any of those, but the flag is harmless and future-proof.)
