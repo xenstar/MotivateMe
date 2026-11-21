@@ -9,12 +9,13 @@
 <p>🌱 Intentional &nbsp;·&nbsp; 🧠 Personal &nbsp;·&nbsp; 🔒 Private</p>
 
 <p>
-  A focused Chromium extension that replaces motivational noise with the
-  reminders, goals, and beliefs that matter to you.
+  A privacy-first motivational quotes Chrome extension for your new tab. Keep
+  your personal reminders, goals, affirmations, and beliefs in one quiet place.
 </p>
 
-[✨ Features](#-features) · [🚀 Quick Start](#-quick-start) · [💾 Your Data](#-your-data) · [🔐 Privacy](#-privacy) · [🧩 Repository](#-repository) · [🤝 Contributing](#-contributing)
+[✨ Features](#-features) · [🚀 Quick Start](#-quick-start) · [💾 Your Data](#-your-data) · [🔐 Privacy](#-privacy) · [🧩 Repository](#-repository) · [🤝 Contributing](#-contributing) · [🛍️ Chrome Web Store][chromewebstore-link]
 
+[![][chrome-web-store-shield]][chromewebstore-link]<br/>
 [![][github-stars-shield]][github-stars-link]
 [![][github-forks-shield]][github-forks-link]
 [![][github-issues-shield]][github-issues-link]
@@ -41,6 +42,7 @@
 - [🛠️ FAQ](#️-faq)
 - [🤝 Contributing](#-contributing)
 - [📬 Contact](#-contact)
+- [🔎 Find MotivateMe](#-find-motivateme)
 - [📄 License](#-license)
 
 ####
@@ -186,7 +188,7 @@ MotivateMe/
 
 - 🌐 [Live privacy policy][privacy-policy-link]
 - 🐞 [GitHub issues][github-issues-link]
-- 🛍️ [Chrome Web Store search][chromewebstore-link]
+- 🛍️ [MotivateMe on the Chrome Web Store][chromewebstore-link]
 
 <div align="right">
 
@@ -246,8 +248,31 @@ When opening an issue:
 ## 📬 Contact
 
 - 🐞 Open an issue in this repository.
-- 🛍️ Find the maintainer contact on the Chrome Web Store listing.
+- 🛍️ Visit the [Chrome Web Store listing][chromewebstore-link] for install and
+  maintainer information.
 - 🔐 Read the [privacy policy][privacy-policy-link].
+
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+
+## 🔎 Find MotivateMe
+
+MotivateMe is built for people searching for a:
+
+- motivational quotes Chrome extension
+- custom new tab extension
+- personal reminders and affirmations extension
+- daily goals and mindset extension
+- privacy-first productivity extension
+- local-first alternative to busy dashboard extensions
+
+It is available on the [Chrome Web Store][chromewebstore-link] and supports
+Chromium-based browsers such as Chrome, Brave, and Comet.
 
 <div align="right">
 
@@ -278,7 +303,8 @@ README layout inspired by [🧙 Readme Wizard](https://github.com/lobehub/lobe-r
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
-[chromewebstore-link]: https://chromewebstore.google.com/search/MotivateMe
+[chrome-web-store-shield]: https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?labelColor=black&logo=googlechrome&logoColor=white&style=flat-square
+[chromewebstore-link]: https://chromewebstore.google.com/detail/motivateme/gjogclnkpkdjcpckkbbfepapopllinco
 [chromium-link]: https://www.chromium.org/Home/
 [chromium-shield]: https://img.shields.io/badge/Chromium-enabled-4285F4?labelColor=black&logo=googlechrome&logoColor=white&style=flat-square
 [github-forks-link]: https://github.com/xenstar/MotivateMe/forks
